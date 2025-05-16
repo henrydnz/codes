@@ -1,4 +1,4 @@
-## Hi, welcome!
+# Hi, welcome!
 
 This is my personal code repository! Here I organize my academic and personal programming projects. The goal of this repository is to showcase my continuous learning, coding practices, and growth as a developer.
 
