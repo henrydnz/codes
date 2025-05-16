@@ -1,11 +1,12 @@
-# 📁 Meus Códigos de Programação
+## Hi, welcome!
 
-Bem-vindo ao meu repositório pessoal de códigos! Aqui organizo meus projetos acadêmicos e pessoais relacionados à programação. O objetivo deste repositório é demonstrar meu aprendizado contínuo, minhas práticas de codificação e minha evolução como desenvolvedor.
+This is my personal code repository! Here I organize my academic and personal programming projects. The goal of this repository is to showcase my continuous learning, coding practices, and growth as a developer.
 
-## 🏫 Projetos Acadêmicos (`academic/`)
+## 🏫 Academic Projects (`academic/`)
 
-Esta pasta contém códigos desenvolvidos ao longo da minha formação acadêmica. Eles estão organizados por ano e disciplina.
+This folder contains code developed throughout my academic journey. The projects are organized by year and subject.
 
-## 🧪 Projetos Pessoais (`personal/`)
+## 🧪 Personal Projects (`personal/`)
 
-Aqui estão projetos que fiz por iniciativa própria. Eles incluem experimentos com linguagens, algoritmos, interfaces gráficas, automações ou qualquer outro tipo de projeto que me ajude a aprender e explorar novas ideias.
+Here you'll find projects I created on my own initiative. They include experiments with languages, algorithms, graphical interfaces, automations, or any other type of project that helps me learn and explore new ideas.
+
