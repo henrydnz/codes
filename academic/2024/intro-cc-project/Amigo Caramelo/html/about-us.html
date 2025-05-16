@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="shortcut icon" href="assets/images/logos-icones/LOGO.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Amigo Caramelo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: calibri;
+            color: #423f3f;
+        }
+
+        .about h1 {
+            text-align: center; /* Centraliza o título */
+            font-size: 24px; /* Define um tamanho maior para destacar */
+            font-weight: bold; /* Deixa o título mais marcante */
+            margin-bottom: 25px; /* Dá um espaço maior abaixo do título */
+        }
+
+        .about {
+            max-width: 700px; /* Define um limite de largura */
+            margin: 40px auto; /* Centraliza na tela */
+            padding: 20px;
+            font-family: Calibri;
+            color: #423f3f;
+            background-color: #f9f9f9; /* Adiciona um fundo mais leve */
+            border-radius: 10px; /* Suaviza as bordas */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+        }
+
+        .card-content p {
+            text-align: justify; /* Justifica o texto */
+            text-indent: 20px; /* Dá um recuo na primeira linha */
+            line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+            margin-bottom: 10px; /* Dá um pequeno espaço entre os parágrafos */
+        }
+
+        .about-image{
+            width: 50%;
+            overflow: hidden;
+        }
+
+        .about-image img{
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .about-image:hover img{
+            transform: scale(1.1);
+        }
+
+        .about-content{
+            width: 50%;
+            margin-left: 40px;
+        }
+
+        .about-content h2{
+            color: #f0f0f0;
+        }
+
+        .about-content p{
+            color: #464646;
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .about-us{
+            padding: 40px 0;
+            box-sizing: border-box;
+            font-family: calibri;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav class="navbar">
+            <!-- clickable logo at the left -->
+            <div class="logo">
+                <a href="index.html">
+                    <nav>
+                        <img src="assets/images/logos-icones/LOGO.png" alt="logo" width="80" height="80">
+                        <img src="assets/images/logos-icones/LOGO-WRITTEN.png" alt="logowritten" width="80" height="42">  
+                    </nav>
+                </a>
+            </div>
+            <!-- options at the right -->
+            <div class="navbar-options button">
+                <ul>
+                    <li><a href="index.html" class="hover">Home</a></li>
+                    <li><a href="about-us.html" class="hover">Sobre Nós</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="hover dropbtn">Serviços</a>
+                            <div class="dropdown-content">
+                                <a href="adopt.html" class="hover">Adote</a>
+                                <a href="cadastro.html" class="hover" target="_blank">Pet-Sitter</a>
+                                <a href="cadastro.html" class="hover" target="_blank">Pet-Walker</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="login.html" class="hover">Login</a></li>
+                    <li>
+                        <a href="https://t.me/+UndEoUkKDttmMGIx" class="no-hover" target="_blank">
+                            <img src="assets/images/logos-icones/icons8-telegram-100 (1).png" alt="telegram icon" width="40px" height="40px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-us">
+            <div class="container">
+                <div class="about-image">
+                    <img src="/assets/images/logos-icones/LOGO.png" alt="" style="width: 75%;">
+                </div>
+                <div class="card about-content main-title">
+                    <div class="card-content card-titulo-modificado">
+                        <h3>Sobre Nós</h3>
+                        <p style="font-family: calibri;">
+                            Bem-vindo ao Projeto Amigo Caramelo! Somos uma equipe apaixonada por bichinhos e nossa missão é ajudar animais indefesos e em situação de abandono a buscar um lar amoroso e seguro onde possam encontrar a felicidade que merecem.
+                        </p>
+                        <p style="font-family: calibri;">
+                            Esse é um canal entre você e esses animais que precisam de ajuda. Você pode fazer a diferença não só adotando um amiguinho, mas servindo de lar temporário a animais resgatados ou fazendo uma doação.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="navbar-options button" style="justify-content: center; align-items: center; display: center;">
+            <ul>
+                <li><a href="fale-conosco.html" class="hover">Fale Conosco</a></li>
+                <li><a href="ongs.html" class="hover">ONGs Parceiras</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

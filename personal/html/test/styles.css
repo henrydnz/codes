@@ -1,0 +1,65 @@
+.block-example {
+    display: block;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.inline-example {
+    display: inline;
+    background-color: yellow;
+}
+
+.inline-block-example {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+    width: 100px;
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.table {
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.contents-example {
+    display: contents;
+}
+
+.list-item {
+    display: list-item;
+}

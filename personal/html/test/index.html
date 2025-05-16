@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        div.mycontainer {
+            display: flex;
+        }
+        div.mycontainer div {
+            width: 100%;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">title</h1>
+    <p><a href="https://www.youtube.com">link to youtube</a></p>
+    <button onclick="document.location='https://www.youtube.com'">button to youtube</button>
+
+    <p id="text" style="padding: 50px;">i am a text</p>
+    <p>click below to change the above text</p>
+    <button onclick="document.getElementById('text').innerHTML='this text was changed'" style="margin: 20px;">button</button>
+
+    <h1>display styles</h1>
+
+    <h2>block</h2>
+    <div class="block-example">I am a block element</div>
+
+    <h2>inline</h2>
+    <div class="inline-example">I am inline</div> next to text.
+
+    <h2>inline-block</h2>
+    <div class="inline-block-example">I am inline-block</div> next to text
+
+    <h2>flex</h2>
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+
+    <h2>grid</h2>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+    </div>
+
+    <h2>hidden</h2>
+    <p class="hidden">You cannot see me!</p>
+
+    <h2>table, row, cell</h2>
+    <div class="table">
+        <div class="row">
+            <div class="cell">Row 1, Cell 1</div>
+            <div class="cell">Row 1, Cell 2</div>
+        </div>
+    </div>
+
+    <h2>contents</h2>
+    <div class="contents-example">
+        <p>I am still visible!</p>
+    </div>
+
+    <h2>list-item</h2>
+    <div class="list-item">• This is a list item</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="shortcut icon" href="assets/images/logos-icones/LOGO.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote - Amigo Caramelo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .main-title {
+            text-align: center; /* Centraliza o título */
+            margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+        }
+        .contact-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%; /* Para ocupar toda a largura disponível */
+            margin-top: 40px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 350px; /* Diminuindo a largura */
+            width: 90%; /* Mantendo responsivo */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .card h3 {
+            font-family: "Luckybones", sans-serif; /* Fonte personalizada */
+            display: inline-block;
+            background-color: #014c59;
+            font-size: 30px;
+            padding: 12px 40px; /* Mais espaçamento interno */
+            border-radius: 30px;
+            color: #f0f0f0;
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
+            margin-bottom: 30px;
+        }
+        .card p {
+            font-size: 18px;
+            margin: 8px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav class="navbar">
+            <!-- clickable logo at the left -->
+            <div class="logo">
+                <a href="index.html">
+                    <nav>
+                        <img src="assets/images/logos-icones/LOGO.png" alt="logo" width="80" height="80">
+                        <img src="assets/images/logos-icones/LOGO-WRITTEN.png" alt="logowritten" width="80" height="42">  
+                    </nav>
+                </a>
+            </div>
+            <!-- options at the right -->
+            <div class="navbar-options button">
+                <ul>
+                    <li><a href="index.html" class="hover">Home</a></li>
+                    <li><a href="about-us.html" class="hover">Sobre Nós</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="hover dropbtn">Serviços</a>
+                            <div class="dropdown-content">
+                                <a href="adopt.html" class="hover">Adote</a>
+                                <a href="cadastro.html" class="hover" target="_blank">Pet-Sitter</a>
+                                <a href="cadastro.html" class="hover" target="_blank">Pet-Walker</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="login.html" class="hover">Login</a></li>
+                    <li>
+                        <a href="https://t.me/+UndEoUkKDttmMGIx" class="no-hover" target="_blank">
+                            <img src="assets/images/logos-icones/icons8-telegram-100 (1).png" alt="telegram icon" width="40px" height="40px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>         
+    </header>
+    <main style="padding-top: 140px;">
+        <section class="contact-card">
+            <div class="card">
+                <div class="card-content">
+                    <h3>CONTATO</h3>
+                    <p>
+                        <strong>Telefone para Contato:</strong> (45) 99999-9999
+                    </p>
+                    <p>
+                        <strong>E-mail:</strong> amigo_caramelo@gmail.com
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://t.me/+UndEoUkKDttmMGIx" target="_blank">
+                            <img src="assets/images/logos-icones/soc-media/telegram-pink.png" alt="Telegram" width="40">
+                        </a>
+                        <a href="https://www.instagram.com/amigocaramelo2025/?igsh=bHJiMG5xdnViZnY3#" target="instagram.png">
+                            <img src="assets/images/logos-icones/soc-media/instagram.png" alt="instagram.png" width="40">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="navbar-options button" style="justify-content: center; align-items: center; display: center;">
+            <ul>
+                <li><a href=""class="hover">Fale Conosco</a></li>
+                <li><a href="ongs.html" class="hover">ONGs Parceiras</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="shortcut icon" href="assets/images/logos-icones/LOGO.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONGs Parceiras - Amigo Caramelo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card-content h3 {
+            font-family: Luckybones;
+            display: inline-block; /* Faz com que o contorno se ajuste ao tamanho do texto */
+            padding: 8px 15px; /* Espaçamento interno */
+            border: 2px solid #014c59; /* Cor e espessura do contorno */
+            border-radius: 50px; /* Arredonda os cantos */
+            background-color: #014c59; /* Fundo da caixa */
+            color: #fdffff; /* Cor do texto */
+            font-weight: bold; /* Deixa o texto em negrito */
+            text-transform: uppercase; /* Transforma o texto em maiúsculas */
+            text-align: center;
+        }
+    
+        .card-content{
+            text-align: center;
+        }
+    
+        .card-content p{
+            text-align: justify;
+        }
+    
+        .card {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px; /* Espaço entre imagem e texto */
+            background: #fff; /* Fundo do card */
+            border-radius: 10px; /* Bordas arredondadas */
+            padding: 0px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            max-width: 800px; /* Largura máxima do card */
+            margin: 0px 50px; /* Centraliza os cards */
+            opacity: 0; /* Para animação */
+            transform: translateY(50px); /* Para animação */
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+    
+        .card.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    
+        .card img {
+            width: 450px; /* Define um tamanho fixo para as imagens */
+            height: 200px;
+            border-radius: 10px; /* Arredonda os cantos */
+            object-fit:cover; /* Garante que a imagem se encaixe bem */
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav class="navbar">
+            <!-- clickable logo at the left -->
+            <div class="logo">
+                <a href="index.html">
+                    <nav>
+                        <img src="assets/images/logos-icones/LOGO.png" alt="logo" width="80" height="80">
+                        <img src="assets/images/logos-icones/LOGO-WRITTEN.png" alt="logowritten" width="80" height="42">  
+                    </nav>
+                </a>
+            </div>
+            <!-- options at the right -->
+            <div class="navbar-options button">
+                <ul>
+                    <li><a href="index.html" class="hover">Home</a></li>
+                    <li><a href="about-us.html" class="hover">Sobre Nós</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="hover dropbtn">Serviços</a>
+                            <div class="dropdown-content">
+                                <a href="adopt.html" class="hover">Adote</a>
+                                <a href="cadastro.html" class="hover" target="_blank">Pet-Sitter</a>
+                                <a href="cadastro.html" class="hover" target="_blank">Pet-Walker</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="login.html" class="hover">Login</a></li>
+                    <li>
+                        <a href="https://t.me/+UndEoUkKDttmMGIx" class="no-hover" target="_blank">
+                            <img src="assets/images/logos-icones/icons8-telegram-100 (1).png" alt="telegram icon" width="40px" height="40px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>         
+    </header>
+
+    <main>
+        <section class="main-cards">
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/images/logos-icones/ongs/ong-patinhas.jpg" alt="ONG Patinhas Felizes">
+                    <div class="card-content">
+                        <h3>Patinhas Felizes</h3>
+                        <p>
+                            Município: Foz do Iguaçu - PR
+                        </p>
+                        <p>
+                            Descrição: A ONG Patinhas Felizes atua no resgate de animais de rua, oferecendo cuidados veterinários, alimentação e abrigo temporário até que encontrem um lar definitivo.
+                        </p>
+                        <a href="not-implemented.html" class="btn">Contato</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/logos-icones/ongs/ong-amigofiel.jpg" alt="ONG Amigo Fiel">
+                    <div class="card-content">
+                        <h3>Amigo Fiel</h3>
+                        <p>
+                            Município: São Miguel do Iguaçu - PR.
+                        </p>
+                        <p>
+                            Descrição: Focada no bem-estar de cães e gatos idosos ou com deficiências, a Amigo Fiel oferece um lar seguro para esses animais que muitas vezes são rejeitados.
+                        </p>
+                        <a href="not-implemented.html" class="btn">Contato</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/logos-icones/ongs/ongvidaanimal.jpg" alt="ONG Vida Animal">
+                    <div class="card-content">
+                        <h3>Vida Animal</h3>
+                        <p>
+                            Município: Foz do Iguaçu - PR
+                        </p>
+                        <p>
+                            Descrição: Atuando em Foz do Iguaçu e região por mais de 10 anos, temos a missão de acabar com o sofrimento de animais que sofrem com o abandono.
+                        </p>
+                        <a href="not-implemented.html" class="btn">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="navbar-options button" style="justify-content: center; align-items: center; display: center;">
+            <ul>
+                <li><a href="fale-conosco.html" class="hover">Fale Conosco</a></li>
+                <li><a href="ongs.html" class="hover">ONGs Parceiras</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".card-content p").forEach(p => {
+                let words = p.innerHTML.split(" ");
+                if (words.length > 1) {
+                    words[0] = `<strong>${words[0]}</strong>`;
+                    p.innerHTML = words.join(" ");
+                }
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const cards = document.querySelectorAll(".card");
+        
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add("show");
+                        }, index * 300);
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            cards.forEach(card => observer.observe(card));
+        });
+    </script>
+</body>
+</html>
