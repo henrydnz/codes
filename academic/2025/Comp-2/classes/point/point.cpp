@@ -1,23 +1,41 @@
+#include <iostream>
 #include "point.h"
+using namespace std;
 
-Point::Point(){
-    x = 0;
-    y = 0;
-}
+Point::Point() : 
+    x(0), 
+    y(0) 
+{}
+
+Point::Point(double newX, double newY) : 
+    x(newX), 
+    y(newY) 
+{}
+
+Point::Point(const Point &p) : 
+    x(p.getX()), 
+    y(p.getY())
+{}
 
 void Point::setX(double newX){
-    Point::x = newX;
+    x = newX;
 }
+
 void Point::setY(double newY){
-    Point::y = newY;
+    y = newY;
 }
+
 void Point::setPoint(double newX, double newY){
-    Point::setX(newX);
-    Point::setY(newY);
+    x = newX;
+    y = newY;
 }
+
 double Point::getX() const{
-    return Point::x;
+    return x;
 }
+
 double Point::getY() const{
-    return Point::y;
+    return y;
 }
+
+Point::~Point(){}
